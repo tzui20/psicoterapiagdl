@@ -6,9 +6,11 @@
 }
 
 html, body {
-   margin: 0;
-   padding:0;
-   width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 a {
@@ -34,13 +36,14 @@ li {
  position: fixed;
  z-index: 99;
  box-shadow: 3px 1px 4px 5px #ccc;
+ flex-wrap: wrap;
 }
 .menu__item {
   padding: 1rem;
-  color: #447194;
+  color: black;
   font-weight: bold;
 }
-.menu__bar > a:nth-child(7) > li:nth-child(1) {
+.menu__bar > a:nth-child(6) > li:nth-child(1) {
  background-color: #A9BDC9;
  color: black;
 }
@@ -50,10 +53,10 @@ li {
 
 
 .hub_image {
- background-image: url(images/ph-1.jpg);
+ background-image: url(images/ph-6.jpg);
  height: 610px;
  background-size: cover;
- background-position: center;
+ background-position: bottom;
  -webkit-background-size: cover;
  background-attachment: fixed;
  background-repeat: no-repeat;
@@ -64,28 +67,28 @@ li {
  position: absolute;
  background: transparent;
  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
- height: 170px;
- width: 380px;
- left: 52%;
+ left: 40%;
  top: 34%;
+ padding: 2rem;
 }
 .hub_copy > p:nth-child(2) {
- padding: 11px;
+ font-size: 20px;
 }
 
 
 .second_box {
  height: 300px;
- background: white;
+ background-image: url(images/b.jfif);
  border-bottom: 1px solid black;
  border-top: 1px solid black;
 }
 .second_box_copy {
- width: 470px;
+ width: 39%;
  text-align: center;
  margin: auto;
- margin-top: 90px;
  font-size: 20px;
+ padding: 5rem;
+ text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .third_box {
@@ -93,7 +96,7 @@ li {
  background-image: url(images/ph-3.jpg);
  background-size: cover;
  background-image: url(images/ph-3.jpg);
- height: 480px;
+ height: 370px;
  background-size: cover;
  background-position: center;
  -webkit-background-size: cover;
@@ -111,15 +114,51 @@ li {
   font-weight: bold;
 }
 .third_box_copy > ul:nth-child(1) {
+ position: relative;
+ display: block;
+ width: 200px;
+ height: 130px;
+ margin: auto;
+ padding: 7rem;
  text-align: center;
- line-height: 28px;
- padding-top: 25%;
- list-style-type: none;
+ line-height: 30px;
 }
 .third_box_title {
-  font-size: 40px;
-  position: relative;
-  bottom: 50px;
-  right: 70px;
-   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ font-size: 30px;
+ margin-right: 30px;
+}
+
+
+.contact_box {
+ height: 200px;
+ background-color: #DDE7ED;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.contact_item {
+  padding: 10px;
+  text-align: center;
+}
+.contact_item_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+.footer {
+ display: flex;
+ color: white;
+ width: 100%;
+ height: 45px;
+ background-color: white;
+ flex-wrap: wrap;
+ justify-content: flex-end;
+}
+.footer_copy {
+  color: black;
+  padding: 10px;
 }
