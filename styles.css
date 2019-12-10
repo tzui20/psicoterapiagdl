@@ -28,7 +28,7 @@ li {
 .menu__bar {
  display: flex;
  flex-direction: row;
- justify-content: right;
+ justify-content: flex-end;
  width: 100%;
  background-color: #A3CFAF;
  position: fixed;
