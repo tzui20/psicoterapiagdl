@@ -8,7 +8,7 @@
 html,
 body {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -66,7 +66,7 @@ li {
 }
 
 .hub_copy {
-    position: absolute;
+    position: relative;
     background: transparent;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     left: 40%;
@@ -154,10 +154,11 @@ li {
 
 
 .contact_box {
-    background-color: #DDE7ED;
+	background-color: #DDE7ED;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(images/ph-3.jpg);
     width: 50%;
 }
 
@@ -187,6 +188,25 @@ li {
     color: black;
     padding: 10px;
 }
+
+
+.blog_container {
+ border: 1px solid black;
+ height: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+.blog_post {
+ padding: 21rem;
+ border: 1px solid black;
+ margin: auto;
+}
+
+
+
+
+
 
 .item-1,
 .item-2,
