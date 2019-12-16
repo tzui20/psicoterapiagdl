@@ -23,15 +23,22 @@ a:visited {
 li {
 	list-style-type: none;
 }
+body > h1:nth-child(2) {
+ position: relative;
+ top: 50px;
+ padding: 1rem;
+ width: 100%;
+ margin: auto;
+ text-align: center;
+ background-color: #7cab87;
+}
 .menu__bar {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 	width: 100%;
-	/*! background-color: #A3CFAF; */
 	position: absolute;
 	z-index: 99;
-	/*! box-shadow: 3px 1px 4px 5px #ccc; */
 	flex-wrap: wrap;
 }
 .menu__item {
@@ -133,6 +140,7 @@ li {
 .fourth_box > iframe:nth-child(1) {
 	border: 0;
 	width: 50%;
+	height: 370px;
 }
 .icon {
 	width: 19px;
@@ -212,6 +220,7 @@ li {
 }
 
 
+
 .service_container {
 	height: 100%;
 	display: flex;
@@ -226,8 +235,9 @@ li {
   border: 1px solid white;
   position: relative;
   top: 51px;
-  background-color: transparent;
+  background-color: white;
   padding: 2em;
+  /*! width: 100%; */
 }
 .service_item {
   padding: 5rem;
@@ -238,13 +248,23 @@ li {
   margin-bottom: 30px;
   background-color: #7cab87;
   opacity: 0.8;
-  background-image: url(images/ph-7.jpg);
+  background-image: url(images/ph-6.jpg);
   width: 260px;
   padding-top: 10rem;
+  background-size: cover;
 }
 .service_copy {
   text-align: center;
   font-weight: bold;
+}
+div.service_item:nth-child(4) {
+ background-image: url(images/ph-8.jpg);
+}
+div.service_item:nth-child(3) {
+ background-image: url(images/ph-7.jpg);
+}
+div.service_item:nth-child(2) {
+ background-image: url(images/ph-9.jpg);
 }
 
 
