@@ -47,8 +47,8 @@ li {
 	color: #24394a;
 }
 .menu__item:hover {
-	background-color: 
-#7cab87;
+	cursor: pointer;
+	border-bottom: 1px solid black;
 }
 
 .menu__item img {
@@ -88,11 +88,11 @@ li {
 	background: #436986;
 }
 .second_box_copy {
-	width: 39%;
+	width: 48%;
 	text-align: center;
 	margin: auto;
-	font-size: 20px;
-	padding: 5rem;
+	font-size: 28px;
+	padding: 6rem;
 	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 	color: #e9f2f5;
 }
@@ -232,7 +232,7 @@ li {
 	width: 100%;
 	margin: auto;
 	background-color: white;
-	padding-top: 5rem;
+	padding-top: 7rem;
 	flex-wrap: wrap;
 }
 .service_box {
@@ -274,14 +274,13 @@ div.service_item:nth-child(2) {
 }
 
 body > h1:nth-child(2) {
- position: relative;
+ position: absolute;
  padding: 1rem;
- width: auto;
+ width: 280px;
  margin: auto;
  text-align: center;
  background-color: #7cab87;
 }
-
 
 .about_container {
  height: 100%;
@@ -290,7 +289,7 @@ body > h1:nth-child(2) {
  flex-direction: column;
  text-align: center;
  margin: auto;
- padding: 4rem;
+ padding: 7rem 0rem 0rem;
 }
 .about_copy {
   padding: 3rem;
@@ -546,10 +545,6 @@ body > h1:nth-child(2) {
 }
 }
 
-@media (max-width: 450px) {
-	body > h1:nth-child(2) {
-		margin-top: 50px;
-}
-}
+
 
 
