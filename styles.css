@@ -23,24 +23,17 @@ a:visited {
 li {
 	list-style-type: none;
 }
-body > h1:nth-child(2) {
- position: relative;
- top: 50px;
- padding: 1rem;
- width: 100%;
- margin: auto;
- text-align: center;
- background-color: #7cab87;
-}
+
 .menu__bar {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	width: 100%;
-	position: absolute;
-	z-index: 99;
-	flex-wrap: wrap;
-}
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		width: 100%;
+		position: absolute;
+		z-index: 99;
+		flex-wrap: wrap;
+		text-align: center;
+	}
 .menu__item {
 	padding: 1rem;
 	color: #24394a;
@@ -54,6 +47,11 @@ body > h1:nth-child(2) {
 	background-color: 
 #7cab87;
 }
+
+.menu__item img {
+	width: 15px;
+}
+
 .hub_image {
 	background-image: url(images/ph-6.jpg);
 	height: 610px;
@@ -234,10 +232,8 @@ body > h1:nth-child(2) {
 .service_box {
   border: 1px solid white;
   position: relative;
-  top: 51px;
   background-color: white;
-  padding: 2em;
-  /*! width: 100%; */
+  padding: 1em;
 }
 .service_item {
   padding: 5rem;
@@ -249,13 +245,17 @@ body > h1:nth-child(2) {
   background-color: #7cab87;
   opacity: 0.8;
   background-image: url(images/ph-6.jpg);
-  width: 260px;
-  padding-top: 10rem;
+  width: 240px;
   background-size: cover;
+  height: 320px;
 }
 .service_copy {
   text-align: center;
   font-weight: bold;
+  height: 100%;
+}
+.service_copy h2 {
+  margin-bottom: 20px;
 }
 div.service_item:nth-child(4) {
  background-image: url(images/ph-8.jpg);
@@ -267,7 +267,15 @@ div.service_item:nth-child(2) {
  background-image: url(images/ph-9.jpg);
 }
 
-
+body > h1:nth-child(2) {
+ position: relative;
+ top: 50px;
+ padding: 1rem;
+ width: auto;
+ margin: auto;
+ text-align: center;
+ background-color: #7cab87;
+}
 
 
 
@@ -381,17 +389,15 @@ div.service_item:nth-child(2) {
 		top: 41%;
 		width: 280px;
 	}
-	.menu__bar {
+.menu__bar {
 		display: flex;
-		flex-direction: row;
 		justify-content: flex-end;
 		width: 100%;
-		background-color: #A3CFAF;
-		position: fixed;
+		position: absolute;
 		z-index: 99;
-		box-shadow: 3px 1px 4px 5px #ccc;
 		flex-wrap: wrap;
 		text-align: center;
+		flex-direction: column;
 	}
 	.fourth_box {
 		display: flex;
@@ -416,4 +422,28 @@ div.service_item:nth-child(2) {
 	.post_image img {
 		height: 150px !important;
 	}
+	.post_image {
+	position: relative;
+	display: block;
+	float: none;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+	body > h1:nth-child(2) {
+	 position: relative;
+	 top: 50px;
+	 padding: 1rem;
+	 width: auto;
+	 margin: auto;
+	 text-align: center;
+	 background-color: #7cab87;
+	 margin-top: 151px;
+}
+}
+
+@media (max-width: 450px) {
+	body > h1:nth-child(2) {
+		margin-top: 50px;
+}
 }
