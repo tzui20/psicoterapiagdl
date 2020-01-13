@@ -56,7 +56,7 @@ li {
 }
 
 .hub_image {
-	background-image: url(images/ph-6.jpg);
+	background-image: url(images/leaves.jpeg);
 	height: 610px;
 	background-position: bottom;
 	background-attachment: fixed;
@@ -69,7 +69,7 @@ li {
 	background: transparent;
 	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 	left: 40%;
-	top: 34%;
+	top: 27%;
 	padding: 2rem;
 	color: #24394a;
 }
@@ -85,7 +85,7 @@ li {
 }
 .second_box {
 	height: auto;
-	background: #436986;
+	background: #96CEB4;
 }
 .second_box_copy {
 	width: 48%;
@@ -94,13 +94,12 @@ li {
 	font-size: 28px;
 	padding: 6rem;
 	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-	color: #e9f2f5;
+	color: black;
 }
 .third_box {
 	height: 400px;
-	background-image: url(images/ph-3.jpg);
 	background-size: cover;
-	background-image: url(images/ph-3.jpg);
+	background-image: url(images/books.jpeg);
 	height: 370px;
 	background-size: cover;
 	background-position: center;
@@ -109,6 +108,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	-moz-background-size: cover;
+	padding: 1rem;
 }
 .third_box_copy {
 	width: 50%;
@@ -149,12 +149,12 @@ li {
 	top: 5px;
 }
 .contact_box {
-	background-color: #709788;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
-	color: #e9f2f5;
+	color: black;
+	background-image: linear-gradient( to top, white 4% , #9DC488 61% );
 }
 .contact_item {
 	padding: 10px;
@@ -172,18 +172,18 @@ li {
   content: ;
   content: "";
   position: absolute;
-  border-bottom: 4px solid white;
-  width: 26px;
+  border-bottom: 3px solid black;
+  width: 44px;
   height: 50px;
   text-align: ;
-  margin-left: -61px;
+  margin-left: -73px;
 }
 .footer {
 	display: flex;
 	color: black;
 	width: 100%;
 	height: auto;
-	background-color: whitesmoke;
+	background-color: transparent;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	position: relative;
@@ -193,6 +193,7 @@ li {
 .footer_copy {
 	color: black;
 	padding: 10px;
+	font-weight: 100;
 }
 .blog_container {
 	height: auto;
@@ -204,9 +205,8 @@ li {
 	padding-top: 5rem;
 }
 .blog_post {
-	border: 1px solid #A3CFAF;
 	margin: 2rem 0rem;
-	background-color: whitesmoke;
+	background-image: linear-gradient(to bottom, #FFEEAD, white);
 	padding: 3rem;
 	height: auto;
 }
@@ -229,7 +229,7 @@ li {
 	height: auto;
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 82%;
 	margin: auto;
 	background-color: white;
 	padding-top: 7rem;
@@ -250,7 +250,7 @@ li {
   margin-bottom: 30px;
   background-color: #7cab87;
   opacity: 0.8;
-  background-image: url(images/ph-6.jpg);
+  background-image: url(images/leaves.jpeg);
   width: 240px;
   background-size: cover;
   height: 320px;
@@ -264,13 +264,13 @@ li {
   margin-bottom: 20px;
 }
 div.service_item:nth-child(4) {
- background-image: url(images/ph-8.jpg);
+ background-image: url(images/leaves.jpeg);
 }
 div.service_item:nth-child(3) {
- background-image: url(images/ph-7.jpg);
+ background-image: url(images/leaves.jpeg);
 }
 div.service_item:nth-child(2) {
- background-image: url(images/ph-9.jpg);
+ background-image: url(images/leaves.jpeg);
 }
 
 body > h1:nth-child(2) {
@@ -279,7 +279,7 @@ body > h1:nth-child(2) {
  width: 280px;
  margin: auto;
  text-align: center;
- background-color: #7cab87;
+ background-color: #88D8B0;
 }
 
 .about_container {
@@ -310,7 +310,7 @@ body > h1:nth-child(2) {
 	display: block;
 	width: 68%;
 	font-size: 27px;
-	color: #24394a;
+	color: black;
 	animation-duration: 20s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
@@ -465,8 +465,7 @@ body > h1:nth-child(2) {
 		padding-bottom: 50px;
 	}
 	.hub_image {
-		background-image: url(images/ph-8.jpg);
-		height: 456px;
+		background-image: url(images/leaves.jpeg);		height: 456px;
 		background-position: bottom;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
