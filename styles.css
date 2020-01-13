@@ -465,8 +465,8 @@ body > h1:nth-child(2) {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
-	.hub_image {
-		background-image: linear-gradient(to bottom, white 10%, white 10%, transparent), url(images/leaves.jpeg);		
+.hub_image {
+		background-image: linear-gradient(to top, white 10%, white 10%, transparent), url(images/leaves.jpeg);		
 		height: 456px;
 		background-position: bottom;
 		background-attachment: fixed;
