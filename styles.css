@@ -265,7 +265,7 @@ li {
   margin-bottom: 30px;
   background-color: #7cab87;
   opacity: 0.8;
-  background-image: url(images/leaves.jpeg);
+  background-image: url(images/leaves-2.jpeg);
   width: 240px;
   background-size: cover;
   height: 320px;
@@ -279,13 +279,15 @@ li {
   margin-bottom: 20px;
 }
 div.service_item:nth-child(4) {
- background-image: url(images/leaves.jpeg);
+ background-image: url(images/leaves-2.jpeg);
+ background-position: right;
 }
 div.service_item:nth-child(3) {
- background-image: url(images/leaves.jpeg);
+ background-image: url(images/leaves-2.jpeg);
 }
 div.service_item:nth-child(2) {
- background-image: url(images/leaves.jpeg);
+ background-image: url(images/leaves-2.jpeg);
+ background-position: right;
 }
 
 body > h1:nth-child(2) {
