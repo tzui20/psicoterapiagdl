@@ -157,9 +157,10 @@ li {
     width: 50%;
 }
 .contact_box::after {
-content: "";
+	content: "";
     background: url(images/leaves.jpeg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
     opacity: 0.3;
     top: 0;
     left: 0;
