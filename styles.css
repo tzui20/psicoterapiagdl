@@ -208,7 +208,6 @@ li {
 .footer_copy {
 	color: black;
 	padding: 10px;
-	font-weight: bold;
 }
 .blog_container {
 	height: auto;
@@ -551,7 +550,7 @@ padding: 1rem;
 }
 	body > h1:nth-child(2) {
     position: relative;
-    top: 66px;
+    top: 70px;
     padding: 1rem;
     width: auto;
     margin: auto;
@@ -559,7 +558,9 @@ padding: 1rem;
     background-color: #7cab87;
     margin-top: 151px;
 }
+.footer {
+	margin-top: 39px;
 }
-
+}
 
 
