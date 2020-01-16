@@ -266,8 +266,8 @@ li {
 	padding-bottom: 20px;
 }
 li.contact_item:nth-child(5) > img:nth-child(2) {
- width: 29px;
- padding: 3px;
+    width: 28px;
+    padding: 4px;
 }
 li.contact_item:nth-child(5) > img:nth-child(1) {
  width: 29px;
