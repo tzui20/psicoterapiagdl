@@ -75,7 +75,7 @@ li {
 }
 .hub_copy::after {
   content: "";
-  border-bottom: 4px solid black;
+  border-bottom: 3px solid black;
   position: absolute;
   width: 72px;
   margin-top: 10px;
@@ -249,9 +249,14 @@ li {
 	margin: 2rem 0rem;
 	padding: 3rem;
 	height: auto;
-	border-width: 4px;
+	border-width: 12px;
 	border-style: solid;
-	border-image: linear-gradient( to right, #96CEB4, rgba(0, 0, 0, 0) ) 1 1 1;
+	border-image: url(images/leaves-3.jpeg) 30 round;
+	/*! border-image-width: 0.9; */
+	/*! border-image-outset: 0px; */
+	/*! border-right: none; */
+	border-top: none;
+	border-left: none;
 }
 .post_image {
 	position: relative;
@@ -447,16 +452,16 @@ body > h1:nth-child(2) {
 	}
 .menu__bar {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: flex-end;
 		width: 100%;
 		position: absolute;
 		z-index: 99;
 		flex-wrap: wrap;
 		text-align: center;
 		flex-direction: row;
-		background-image: url(images/leaves.jpeg);
+		background-image: none;
 		background-size: cover;
-		height: 21.3%;
+		height: auto;
 	}
 .menu__item {
 padding: 1rem;
