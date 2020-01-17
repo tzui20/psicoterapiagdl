@@ -459,9 +459,9 @@ body > h1:nth-child(2) {
 		flex-wrap: wrap;
 		text-align: center;
 		flex-direction: row;
-		background-image: none;
+    background-image: url(images/leaves-3.jpeg);
 		background-size: cover;
-		height: auto;
+height: 143px;
 	}
 .menu__item {
 padding: 1rem;
