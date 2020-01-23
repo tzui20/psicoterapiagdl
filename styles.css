@@ -3,6 +3,9 @@
 	margin: 0;
 	font-family: 'Poiret One', cursive;
 	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth: always;
 }
 html,
 body {
@@ -48,6 +51,7 @@ li {
 .menu__item:hover {
 	cursor: pointer;
 	border-bottom: 1px solid black;
+	margin-bottom: -1px;
 }
 .menu__item img {
 	width: 15px;
@@ -266,11 +270,11 @@ li {
 }
 li.contact_item:nth-child(5) > img:nth-child(2) {
 	width: 28px;
-	padding: 4px;
+	padding: 2.5px;
 }
 li.contact_item:nth-child(5) > img:nth-child(1) {
-	width: 29px;
-	padding: 3px;
+	width: 27px;
+	padding: 4px;
 }
 .service_container {
 	height: auto;
