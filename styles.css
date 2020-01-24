@@ -211,6 +211,9 @@ li {
 	text-align: ;
 	margin-left: -73px;
 }
+.social-media {
+  width: 28px;
+}
 .footer {
 	display: flex;
 	color: black;
@@ -250,11 +253,9 @@ li {
 	border-width: 12px;
 	border-style: solid;
 	border-image: url(images/leaves-3.jpeg) 30 round;
-	/*! border-image-width: 0.9; */
-	/*! border-image-outset: 0px; */
-	/*! border-right: none; */
 	border-top: none;
 	border-left: none;
+	background: rgb(173,219,165, 0.4);
 }
 .post_image {
 	position: relative;
@@ -287,10 +288,12 @@ li.contact_item:nth-child(5) > img:nth-child(1) {
 	flex-wrap: wrap;
 }
 .service_box {
-	border: 1px solid white;
 	position: relative;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.7);
 	padding: 1em;
+	height: max-content;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .service_item {
 	padding: 4rem;
