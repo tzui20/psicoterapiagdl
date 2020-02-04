@@ -321,28 +321,12 @@ li.contact_item:nth-child(5) > img:nth-child(1) {
 .service_copy h2 {
 	margin-bottom: 20px;
 }
-div.service_item:nth-child(4) {
-	background-image: url(images/leaves-2.jpeg);
-	background-position: right;
-}
-div.service_item:nth-child(3) {
-	background-image: url(images/leaves-2.jpeg);
-}
-div.service_item:nth-child(2) {
-	background-image: url(images/leaves-2.jpeg);
-	background-position: right;
-}
-div.service_item:nth-child(6) {
- background-position: right;
-}
-div.service_item:nth-child(6) {
- background-position: right;
-}
-div.service_item:nth-child(1) {
- width: 80%;
-}
-div.service_item:nth-child(8) {
- background-position: right;
+button.collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
 }
 
 body > h1:nth-child(2) {

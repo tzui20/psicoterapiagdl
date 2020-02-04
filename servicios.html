@@ -46,7 +46,7 @@
 	</div>
 	<h1>Servicios</h1>
 	<div class="service_container">
-<button type="button" class="collapsible">Terapia Familiar</button>
+<button type="button" class="collapsible current" style="height: 217px;">Terapia Familiar</button>
 <div class="content">
 					<p>Modelo de psicoterapia que busca cambios y soluciones de cualquier tipo favoreciendo la situación relacional de los miembros del sistema familiar involucrado. </p>
 <br>
@@ -113,6 +113,7 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
+  $(".accordian").first().addClass("current");
 }
 </script>
 </html>
