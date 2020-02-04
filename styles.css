@@ -128,8 +128,7 @@ li {
 .third_box_copy {
 	width: 50%;
 	height: 100%;
-	background: white;
-	opacity: 0.8;
+	background: rgb(255,255,255, 0.5);
 	position: relative;
 }
 .third_box_copy > ul:nth-child(1) {
@@ -213,6 +212,7 @@ li {
 }
 .social-media {
   width: 28px;
+  padding: 4px;
 }
 .footer {
 	display: flex;
@@ -281,11 +281,12 @@ li.contact_item:nth-child(5) > img:nth-child(1) {
 	height: auto;
 	display: flex;
 	flex-direction: row;
-	width: 82%;
+	width: 80%;
 	margin: auto;
 	background-color: white;
 	padding-top: 7rem;
 	flex-wrap: wrap;
+	padding-bottom: 30px;
 }
 .service_box {
 	position: relative;
@@ -294,6 +295,8 @@ li.contact_item:nth-child(5) > img:nth-child(1) {
 	height: max-content;
 	margin-top: auto;
 	margin-bottom: auto;
+	width: 79%;
+	margin: auto;
 }
 .service_item {
 	padding: 4rem;
@@ -305,9 +308,10 @@ li.contact_item:nth-child(5) > img:nth-child(1) {
 	background-color: #7cab87;
 	opacity: 0.8;
 	background-image: url(images/leaves-2.jpeg);
-	width: 240px;
+	width: 320px;
 	background-size: cover;
-	height: 320px;
+	height: auto;
+	font-size: 19px;
 }
 .service_copy {
 	text-align: center;
@@ -328,6 +332,19 @@ div.service_item:nth-child(2) {
 	background-image: url(images/leaves-2.jpeg);
 	background-position: right;
 }
+div.service_item:nth-child(6) {
+ background-position: right;
+}
+div.service_item:nth-child(6) {
+ background-position: right;
+}
+div.service_item:nth-child(1) {
+ width: 80%;
+}
+div.service_item:nth-child(8) {
+ background-position: right;
+}
+
 body > h1:nth-child(2) {
 	position: absolute;
 	padding: 1rem;
@@ -355,6 +372,17 @@ body > h1:nth-child(2) {
 .about_image img {
 	border-radius: 50%;
 	height: 100%;
+}
+.company-logos {
+  width: 225px;
+}
+.logos {
+  padding-bottom: 20px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 58%;
 }
 .item-1,
 .item-2,
@@ -575,6 +603,9 @@ body > h1:nth-child(2) {
 	.footer {
 		margin-top: 39px;
 	}
+div.service_item:nth-child(1) {
+		width: 320px;
+}
 }
 @media (min-width: 1441px) {
 	body {
@@ -582,4 +613,35 @@ body > h1:nth-child(2) {
 		width: 70%;
 		margin: auto;
 	}
+}
+
+
+.collapsible {
+  background-color: #777;
+  color: black;
+  cursor: pointer;
+  padding: 32px;
+  width: 100%;
+  border: 1px solid white;
+  text-align: center;
+  outline: none;
+  font-size: 35px;
+  background-image: url(images/leaves-2.jpeg);
+  background-size: cover;
+  font-weight: bold;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 2rem;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 20px;
+  text-align: center;
 }
