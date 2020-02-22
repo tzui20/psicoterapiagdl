@@ -244,16 +244,16 @@
      padding-top: 2rem;
 }
  .blog_post {
-     margin: 2rem 0rem;
-     padding: 3rem;
-     height: auto;
-     border-width: 12px;
-     border-style: solid;
-     border-image: url(images/leaves-3.jpeg) 30 round;
-     border-top: none;
-     border-left: none;
-     background-color: #70AA9F;
-     color: white;
+    margin: 2rem 0rem;
+    padding: 3rem;
+    height: auto;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #70AA9F;
+    border-top: none;
+    border-left: none;
+    background-color: whitesmoke;
+    color: black;
 }
  .post_image {
      position: relative;
@@ -343,21 +343,21 @@
 	 padding: 2rem 0rem 0rem;
 }
 .about_copy {
-     padding-bottom: 2rem;
-     width: 60%;
-     margin: auto;
-     border-width: 12px;
-     border-top-width: 12px;
-     border-left-width: 12px;
-     border-style: solid;
-     border-top-style: solid;
-     border-left-style: solid;
-     border-image: url(images/leaves-3.jpeg) 30 round;
-     border-top: none;
-     border-left: none;
-     background-color: #70AA9F;
+padding-bottom: 2rem;
+    width: 60%;
+    margin: auto;
+    border-width: 12px;
+    border-top-width: 12px;
+    border-left-width: 12px;
+    border-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-color: #70AA9F;
+    border-top: none;
+    border-left: none;
+    background-color: whitesmoke;
     padding: 3rem;
-         color: white;
+    color: black;
 }
  .about_image {
      padding-bottom: 2rem;
