@@ -666,7 +666,7 @@ input[type='checkbox'] {
   background-image: url(images/leaves-5.jpg);
   background-size: cover;
   background-position:       right top;
-  border: 0.2px solid #70AA9F;
+    border: 1px solid #70AA9F;
 }
 
 .lbl-toggle:hover {
