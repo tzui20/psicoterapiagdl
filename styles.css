@@ -8,6 +8,7 @@
      font-smooth: always;
 	 text-rendering: optimizeLegibility;
 	 text-rendering: optimizeSpeed;
+
      font-family: 'Quicksand' !important;
 }
  html, body {
@@ -19,6 +20,7 @@
 }
  body {
      min-height: 100%;
+	 overflow-y: hidden;
 }
  a {
      text-decoration: none;
@@ -81,6 +83,7 @@
 	     width: 100%;
 	     height: 50px;
 	     padding-left: 199px;
+	     background: linear-gradient(140deg, rgba(112,170,159,1) 25%, rgba(255,255,255,1) 82%);
 }
 .hub_copy_other::after {
      content: "";
@@ -115,7 +118,7 @@
      background-size: cover;
 }
  .second_box_copy {
-     width: 50%;
+     width: 600px;
      text-align: center;
      margin: auto;
      font-size: 28px;
@@ -384,7 +387,7 @@ padding-bottom: 2rem;
      position: absolute;
      display: block;
      width: 68%;
-     font-size: 27px;
+     font-size: 24px;
      color: black;
      animation-duration: 20s;
      animation-timing-function: ease-in-out;
@@ -394,6 +397,7 @@ padding-bottom: 2rem;
      margin-bottom: 19%;
      margin-left: -12%;
      margin-right: auto;
+	font-style: italic;
 }
  .item-1 {
      animation-name: anim-1;
@@ -645,18 +649,20 @@ input[type='checkbox'] {
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 
   padding: 1rem;
 
-  color: white;
-  background: #FAE042;
+  color: black;
 
   cursor: pointer;
 
   border-radius: 7px;
   transition: all 0.25s ease-out;
-    background: #70AA9F;
+  background-image: url(images/leaves-5.jpg);
+  background-size: cover;
+  background-position:       right top;
+  border: 0.2px solid #70AA9F;
 }
 
 .lbl-toggle:hover {
@@ -706,6 +712,7 @@ input[type='checkbox'] {
   font-size: 20px;
 }
 
+  /*
 div.wrap-collasible:nth-child(2) > label:nth-child(2) {
  background-position-x: right;
 }
@@ -718,6 +725,26 @@ div.wrap-collasible:nth-child(6) > label:nth-child(2) {
 div.wrap-collasible:nth-child(8) > label:nth-child(2) {
  background-position-x: right;
 }
+div.wrap-collasible:nth-child(10) > label:nth-child(2) {
+ background-position-x: right;
+}
+*/
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px;
 
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
