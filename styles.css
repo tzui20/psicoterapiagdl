@@ -67,6 +67,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      -moz-background-size: cover;
+	 background-attachment: fixed;
 }
 .hub_copy {
      position: relative;
