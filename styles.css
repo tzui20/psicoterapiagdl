@@ -1,15 +1,16 @@
 * {
      padding: 0;
      margin: 0;
-     font-family: 'Poiret One', cursive;
      scroll-behavior: smooth;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
      font-smooth: always;
 	 text-rendering: optimizeLegibility;
 	 text-rendering: optimizeSpeed;
-
-     font-family: 'Quicksand' !important;
+	font-family: 'Roboto';
+}
+h1, h2 {
+	font-family: Open Sans;
 }
  html, body {
      width: 100%;
@@ -45,12 +46,12 @@
 }
  .menu__item {
      padding: 1rem;
-     color: #24394a;
-     font-weight: bold;
+     color: black;
+	 font-family: 'Open Sans' !important;
 }
  .menu__bar > a:nth-child(6) > li:nth-child(1) {
      background-color: #A9BDC9;
-     color: #24394a;
+     color: black;
 }
  .menu__item:hover {
      cursor: pointer;
@@ -67,7 +68,6 @@
      background-repeat: no-repeat;
      background-size: cover;
      -moz-background-size: cover;
-	 background-attachment: fixed;
 }
 .hub_copy {
      position: relative;
@@ -85,9 +85,11 @@
 	     height: 50px;
 	     padding-left: 12px;
 	     background: linear-gradient(140deg, rgba(135, 206, 136) 25%, rgba(255,255,255,1) 82%);
-	     background-image: url(images/leaves.jpg);
+	     background-image: url(images/leaves-5.jpg);
 	     background-size: cover;
-	     background-position: bottom;
+	     background-position-y: unset;
+	     box-shadow: inset 0 0 0 1000px rgba(203, 228, 221,0.8);
+	     padding-left: 5%;
 }
 .hub_copy_other::after {
      content: "";
@@ -114,11 +116,14 @@
  .hub_copy > p:nth-child(2) {
      font-size: 20px;
 }
- .second_box {
+.second_box {
      height: 234px;
-     background-color: #87CE88;
+     background-color: #cbe4dd;
      background-attachment: fixed;
      background-size: cover;
+     background-image: url(images/leaves-hub.jpg);
+     box-shadow: inset 0 0 0 1000px rgba(203, 228, 221,0.8);
+     font-weight: 400;
 }
  .second_box_copy {
      width: 600px;
@@ -192,7 +197,7 @@
      flex-direction: column;
      justify-content: center;
      width: 50%;
-     background-color: #87CE88;
+     background-color: #cbe4dd;
      background-attachment: fixed;
      background-size: cover;
      color:black;
@@ -202,7 +207,6 @@
      padding: 8px 0px 15px 0px;
      text-align: left;
      font-size: 20px;
-     font-weight: bold;
      margin-left: 80px;
 }
  .contact_item_title {
@@ -257,7 +261,7 @@
     border-image: url(images/leaves.jpg) 30;
     border-top: none;
     border-left: none;
-    background-color: whitesmoke;
+    background-color: rgb(214, 227, 227,0.3);
     color: black;
     border-bottom-right-radius: 28px;
 }
@@ -270,8 +274,9 @@
  .post_copy {
      position: relative;
 }
- .post_title {
+.post_title {
      padding-bottom: 20px;
+     width: 70%;
 }
  li.contact_item:nth-child(5) > img:nth-child(2) {
      width: 28px;
@@ -281,11 +286,11 @@
      width: 27px;
      padding: 4px;
 }
- .service_container {
+.service_container {
      height: auto;
      display: flex;
      flex-direction: row;
-     width: 67%;
+     width: 85%;
      margin: auto;
      background-color: white;
      padding-top: 3rem;
@@ -362,7 +367,8 @@
     border-image: url(images/leaves.jpg) 30;
     border-top: none;
     border-left: none;
-    background-color: whitesmoke;
+  background-color: rgb(214, 227, 227,0.3);
+
     padding: 3rem;
     color: black;
 	border-bottom-right-radius: 28px;
@@ -480,7 +486,7 @@ input[type='checkbox'] {
   font-weight: bold;
   font-family: inherit;
   font-size: 1.8rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: left;
 
   padding: 1rem;
@@ -536,12 +542,13 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  background: whitesmoke;
+  background: #d6e3e3;
   border-bottom: 1px solid rgba(250, 224, 66, .45);
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: 2rem;
   font-size: 20px;
+  background-color: rgb(214, 227, 227,0.3);
 }
 
   /*
@@ -580,3 +587,28 @@ div.wrap-collasible:nth-child(10) > label:nth-child(2) {
   visibility: visible;
 }
 
+.speech_bubble {
+	position: relative;
+	background: #cbe4dd;
+	border-radius: .4em;
+	padding: 32px;
+}
+.speech_bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #cbe4dd;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-top: -20px;
+}
+
+.about_copy h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
