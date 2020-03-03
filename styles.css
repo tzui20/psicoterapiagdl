@@ -55,7 +55,6 @@ h1, h2 {
 }
  .menu__item:hover {
      cursor: pointer;
-     border-bottom: 1px solid black;
      margin-bottom: -1px;
 }
  .menu__item img {
@@ -147,10 +146,10 @@ h1, h2 {
      -moz-background-size: cover;
      padding: 1rem;
 }
- .third_box_copy {
+.third_box_copy {
      width: 50%;
      height: 100%;
-     background: rgb(255,255,255, 0.5);
+     background: rgb(255, 255, 255, 0.5);
      position: relative;
 }
 .third_box_copy h2 {
@@ -256,14 +255,9 @@ h1, h2 {
     margin: 2rem 0rem;
     padding: 3rem;
     height: auto;
-    border-width: 12px;
-    border-style: solid;
-    border-image: url(images/leaves.jpg) 30;
-    border-top: none;
-    border-left: none;
-    background-color: rgb(214, 227, 227,0.3);
+    background-color: rgb(207, 224, 247,0.3);
     color: black;
-    border-bottom-right-radius: 28px;
+	border-radius: 30px;
 }
  .post_image {
      position: relative;
@@ -290,7 +284,7 @@ h1, h2 {
      height: auto;
      display: flex;
      flex-direction: row;
-     width: 85%;
+     width: 75%;
      margin: auto;
      background-color: white;
      padding-top: 3rem;
@@ -358,20 +352,10 @@ h1, h2 {
 	padding-bottom: 2rem;
     width: 60%;
     margin: auto;
-    border-width: 12px;
-    border-top-width: 12px;
-    border-left-width: 12px;
-    border-style: solid;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-image: url(images/leaves.jpg) 30;
-    border-top: none;
-    border-left: none;
-  background-color: rgb(214, 227, 227,0.3);
-
+	background-color: rgb(207, 224, 247,0.3);
     padding: 3rem;
     color: black;
-	border-bottom-right-radius: 28px;
+	border-radius: 30px;
 
 }
  .about_image {
@@ -401,7 +385,7 @@ h1, h2 {
      width: 68%;
      font-size: 24px;
      color: black;
-     animation-duration: 20s;
+     animation-duration: 35s;
      animation-timing-function: ease-in-out;
      animation-iteration-count: infinite;
      font-family: Niconne;
@@ -497,14 +481,15 @@ input[type='checkbox'] {
 
   border-radius: 7px;
   transition: all 0.25s ease-out;
-  background-image: url(images/leaves-5.jpg);
+  background-image: url(images/clouds.jpeg);
   background-size: cover;
-  background-position:       right top;
-    border: 1px solid #70AA9F;
+  background-position: bottom;
+  background: linear-gradient(40deg, rgba(203,228,221,1) 58%, rgba(147,173,207,1) 100%);
 }
 
 .lbl-toggle:hover {
-	opacity: 0.7;
+	opacity: 1;
+	background: linear-gradient(40deg, rgba(147,173,207,1) 0%, rgba(203,228,221,1) 58%);
 }
 
 .lbl-toggle::before {
@@ -551,24 +536,6 @@ input[type='checkbox'] {
   background-color: rgb(214, 227, 227,0.3);
 }
 
-  /*
-div.wrap-collasible:nth-child(2) > label:nth-child(2) {
- background-position-x: right;
-}
-div.wrap-collasible:nth-child(4) > label:nth-child(2) {
- background-position-x: right;
-}
-div.wrap-collasible:nth-child(6) > label:nth-child(2) {
- background-position-x: right;
-}
-div.wrap-collasible:nth-child(8) > label:nth-child(2) {
- background-position-x: right;
-}
-div.wrap-collasible:nth-child(10) > label:nth-child(2) {
- background-position-x: right;
-}
-*/
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: auto;
@@ -589,15 +556,18 @@ div.wrap-collasible:nth-child(10) > label:nth-child(2) {
 
 .speech_bubble {
 	position: relative;
-	background: #cbe4dd;
 	border-radius: .4em;
 	padding: 32px;
+	box-shadow: inset 0 0 0 1000px rgba(203, 228, 221,0.9);
+	background-image: url(images/leaves.jpg);
+	background-position: revert;
+	background-size: cover;
 }
 .speech_bubble:after {
 	content: '';
 	position: absolute;
 	top: 0;
-	left: 50%;
+	left: 10%;
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
@@ -609,6 +579,26 @@ div.wrap-collasible:nth-child(10) > label:nth-child(2) {
 }
 
 .about_copy h3 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
+}
+
+
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: none;
+  padding: 2px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: relative;
+  bottom: 2px;
+}
+
+.menu__item:hover i {
+	display: inline-block;
 }
