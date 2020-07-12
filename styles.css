@@ -606,7 +606,7 @@ i {
 
 
 @media (min-width: 1440px) {
-	.menu__bar {
+	.main__menu.menu__bar {
     right: 15%;
 }
 }
