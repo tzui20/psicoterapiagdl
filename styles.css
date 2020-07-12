@@ -125,7 +125,7 @@ h1, h2 {
      font-weight: 400;
 }
  .second_box_copy {
-     width: 600px;
+     width: 100%;
      text-align: center;
      margin: auto;
      font-size: 28px;
@@ -605,16 +605,8 @@ i {
 }
 
 
-@media (min-width: 980px) {
+@media (min-width: 1440px) {
 	.menu__bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    position: relative;
-    z-index: 99;
-    flex-wrap: wrap;
-    text-align: center;
     right: 15%;
 }
 }
