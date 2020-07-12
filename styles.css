@@ -603,3 +603,18 @@ i {
 	  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+
+@media (min-width: 980px) {
+	.menu__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    flex-wrap: wrap;
+    text-align: center;
+    right: 15%;
+}
+}
