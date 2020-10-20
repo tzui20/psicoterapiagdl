@@ -663,6 +663,14 @@ i {
   margin-left: 40px;
 }
 
+.hub_copy {
+     position: relative;
+     top: 53%;
+     padding: 2rem;
+     color: #24394a;
+     background: #88D8B0;
+     left: 0%;
+}
 
 /* Inline #2 | https://tzui20.github.io/psicoterapiagdl/index.html */
 
@@ -709,6 +717,12 @@ i {
 /* Element | https://tzui20.github.io/psicoterapiagdl/index.html */
 
 .hub_text {
- left: 0; 
+     position: initial;
+     text-align: center;
+}
+.contact_item {
+  /* margin-left: 80px; */
+  margin-left: 40px;
+  width: 55%;
 }
 }
