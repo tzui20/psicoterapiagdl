@@ -663,9 +663,6 @@ i {
   margin-left: 40px;
 }
 
-.hub_copy {
-  display: none;
-}
 
 /* Inline #2 | https://tzui20.github.io/psicoterapiagdl/index.html */
 
@@ -714,5 +711,4 @@ i {
 .hub_text {
  left: 0; 
 }
-
 }
