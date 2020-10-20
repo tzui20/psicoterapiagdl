@@ -725,4 +725,19 @@ i {
   margin-left: 40px;
   width: 55%;
 }
+
+/* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
+
+.hub_copy_other {
+  /* width: 100%; */
+  width: auto;
+  margin-top: 25px;
+}
+
+.hub_copy_other::after {
+  /* width: 72px; */
+  width: 90%;
+  text-align: ;
+}
+
 }
