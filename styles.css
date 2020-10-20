@@ -740,4 +740,25 @@ i {
   text-align: ;
 }
 
+/* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
+
+.about_container {
+  /* margin: 1rem; */
+  margin: 0;
+  width: 100%;
+}
+
+.about_copy {
+  /* width: 60%; */
+  width: auto;
+  margin-bottom: 20px;
+}
+
+/* Element | https://tzui20.github.io/psicoterapiagdl/about.html */
+
+.about_image > img:nth-child(1) {
+  /* width: 250px; */
+  width: 200px;
+}
+
 }
