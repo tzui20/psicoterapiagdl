@@ -2,143 +2,155 @@
 <html>
 
 <head>
-	<title>Marina Salazar</title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="">
-	<meta name="author" content="Marina Salazar">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="">
-	<meta property="og:description" content="">
-	<meta property="og:image" content="">
-	<meta property="og:url" content="">
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Niconne|Poiret+One&display=swap" rel="stylesheet">
-	<style>
-		@media (max-width: 981px) {
-		.menu__bar {
-		    margin-top: 190px;
-		    font-size: 22px;
-		}
-		.menu__bar {
-			display: flex;
-			justify-content: flex-end;
-			width: 100%;
+    <title>Marina Salazar</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Marina Salazar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <style>
+        @media (max-width: 981px) {
+            .menu__bar {
+                margin-top: 190px;
+                font-size: 22px;
+            }
+            .menu__bar {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                position: absolute;
+                z-index: 99;
+                flex-wrap: wrap;
+                text-align: center;
+                flex-direction: row;
+                background-image: none;
+                background-size: cover;
+            }
+        }
+        
+        .footer {
+            display: flex;
+            color: black;
+            width: 100%;
+            height: 0px;
+            background-color: whitesmoke;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            position: relative;
+            bottom: 42px;
+            left: 0;
+        }
+        @media (min-width: 1441px) {
+            .menu__bar {
+                width: 70%;
+            }
+            .hub_copy {
+                left: 43%;
+            }
+        }
+		.hub_copy::after {
+			content: "";
+			border-bottom: 3px solid black;
 			position: absolute;
-			z-index: 99;
-			flex-wrap: wrap;
-			text-align: center;
-			flex-direction: row;
-			background-image: none;
-			background-size: cover;
+			width: 72px;
+			margin-top: 10px;
+			left: 146px;
 		}
-		}
-		.footer {
-		display: flex;
-		color: black;
-		width: 100%;
-		height: 0px;
-		background-color: whitesmoke;
-		flex-wrap: wrap;
-		justify-content: flex-end;
-		position: relative;
-		bottom: 42px;
-		left: 0;
-	    }
-		@media (min-width: 1441px) {
-		.menu__bar {
-			width: 70%;
-		}
-		.hub_copy {
-	    left: 43%;
-	
-	}
-		}
-	</style>
+    </style>
 </head>
 
 <body>
-	<div class="top__bar">
-		<ul class="menu__bar" style="position: absolute">
+    <div class="top__bar">
+        <ul class="menu__bar main__menu" style="position: absolute">
+            <a href="">
+                <li class="menu__item">
+                    <a href="index.html">
+                        <i class="right"></i>&nbsp;&nbsp;Inicio</a>
+                </li>
+            </a>
+            <a href="">
+                <li class="menu__item">
+                    <a href="about.html">
+                        <i class="right"></i>&nbsp;&nbsp;Acerca de</a>
+                </li>
+            </a>
+            <a href="">
+                <li class="menu__item">
+                    <a href="servicios.html">
+                        <i class="right"></i>&nbsp;&nbsp;Servicios</a>
+                </li>
+            </a>
+            <a href="">
+                <li class="menu__item">
+                    <a href="blog.html">
+                        <i class="right"></i>&nbsp;&nbsp;Blog</a>
+                </li>
+            </a>
 			<a href="">
-				<li class="menu__item">
-					<a href="index.html">
-						<img src="images/home.svg"> Home</a>
-				</li>
-			</a>
+                <li class="menu__item">
+                    <a href="testimonios.html">
+                       <i class="right"></i>&nbsp;&nbsp;Testimonios</a>
+                </li>
+            </a>			
 			<a href="">
-				<li class="menu__item">
-					<a href="about.html">
-						<img src="images/person.svg"> Lorem Ipsum</a>
-				</li>
-			</a>
-			<a href="">
-				<li class="menu__item">
-					<a href="servicios.html">
-						<img src="images/service.svg"> Lorem Ipsum</a>
-				</li>
-			</a>
-			<a href="">
-				<li class="menu__item">
-					<a href="blog.html">
-						<img src="images/pen.svg"> Lorem Ipsum</a>
-				</li>
-			</a>
-		</ul>
-	</div>
-	<div class="hub_image">
-		<div class="hub_copy">
-			<img src="images/logo.png">	<span class="hub_text">
+                <li class="menu__item">
+                    <a href="index.html#contact">
+                     <i class="right"></i>&nbsp;&nbsp;Contacto</a>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="hub_image">
+        <div class="hub_copy" style="background: rgb(255, 255, 255, 0.8);">
+            <img src="images/logo.png"> <span class="hub_text" style="left: 114px;">
 			<h1>Psic. Marina Salazar Alfaro</h1>
 			<p>Psicoterapia Familiar e Individual</p>
 			</span>
-		</div>
-	</div>
-	<a name="test2"></a>
-	<div class="second_box">
-		<div class="second_box_copy">
-			<p>La terapia y el coaching son recursos actuales que tienen como objetivo mejorar la calidad de vida de las personas y las familias.</p>
-		</div>
-	</div>
-	<div class="third_box">
-		<a name="test3"></a>
-		<div class="third_box_copy">
-			<!--	<ul>
-		<li class="third_box_title">Lorem Ipsum</li>
-			<li>Lorem ipsum dolor sit amet</li>
-			<li>Lorem ipsum dolor sit amet</li>
-			<li>Lorem ipsum dolor sit amet</li>
-			<li>Lorem ipsum dolor sit amet</li>
-			<li>Lorem ipsum dolor sit amet</li>
-		</ul>-->
-			<p class="item-1">"Ut fringilla condimentum neque, sit amet interdum arcu blandit eu. Proin ullamcorper lectus sit amet justo scelerisque euismod."
-				<br>- Lorem</p>
-			<p class="item-2">"Nulla interdum ante at augue dapibus varius sit amet interdum arcu blandit eu. Proin ullamcorper lectus sit amet justo scelerisque euismod."
-				<br>- Lorem</p>
-			<p class="item-3">"Nulla interdum ante at augue dapibus varius. Ut fringilla condimentum neque, sit amet interdum arcu blandit eu. Proin ullamcorper lectus sit amet justo scelerisque euismod."
-				<br>- Lorem</p>
-		</div>
-	</div>
-	<a name="test4"></a>
-	<div class="fourth_box">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9444814908206!2d-103.38801748507336!3d20.671837586192847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae7249551acb%3A0x44e03c67a718d7a4!2sAv.%20Circunvalaci%C3%B3n%20Agust%C3%ADn%20Y%C3%A1%C3%B1ez%202781%2C%20Vallarta%2C%2044690%20Guadalajara%2C%20Jal.%2C%20Mexico!5e0!3m2!1sen!2suk!4v1579792813930!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-		
-		<div class="contact_box">
-			<li class="contact_item_title">Contact</li>
-			<li class="contact_item">MTF Marina Salazar, Psicoterapeuta</li>
-			<li class="contact_item">marina@psicoterapiagdl.com
-</li>
-			<li class="contact_item">+52 1 33 3157 6713</li>
-			<li class="contact_item">
-				<a href="https://www.facebook.com/psicologamarinasalazar" target="_blank"><img class="social-media" src="images/fb.svg"></a>
-				<a href="https://www.instagram.com/marina_psicoterapeuta/" target="_blank"><img class="social-media" src="images/instagram.svg"></a>
-			</li>
-		</div>
-	</div>
-	<div class="footer">
-		<p class="footer_copy">
-			<img class="icon" alt="English" src="images/english.png">|
-			<img class="icon" alt="French" src="images/french.png">| Lorem ipsum | Lorem ipsum</p>
-	</div>
+        </div>
+    </div>
+    <div class="second_box">
+        <div class="second_box_copy">
+            <p>La terapia y el coaching son recursos actuales que tienen como objetivo mejorar la calidad de vida de las personas y las familias.</p>
+        </div>
+    </div>
+    <div class="third_box">
+        <div class="third_box_copy">
+                    <h2>Testimonios</h2>
+
+            <p class="item-1">"Puedo decir que gracias a la terapia con Marina ahora soy una persona más feliz, segura de sí misma..."
+                <br><br>- Beatriz Cortés</p>
+            <p class="item-2">"...yo ampliamente recomiendo que lo intenten, que se den la oportunidad de sentirse y entenderse mejor..."
+                <br><br>- Laura Rodríguez </p>
+            <p class="item-3">"Ir a terapia sobre todo me abrió los ojos, me hizo ser consciente de esas cosas que antes no veía o que no me gustaba ver..."
+                <br><br>- Samuel Camacho </p>
+        </div>
+    </div>
+    <div class="fourth_box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9444814908206!2d-103.38801748507336!3d20.671837586192847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae7249551acb%3A0x44e03c67a718d7a4!2sAv.%20Circunvalaci%C3%B3n%20Agust%C3%ADn%20Y%C3%A1%C3%B1ez%202781%2C%20Vallarta%2C%2044690%20Guadalajara%2C%20Jal.%2C%20Mexico!5e0!3m2!1sen!2suk!4v1579792813930!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <div class="contact_box"><a name="contact"></a>
+            <li class="contact_item_title">Contacto</li>
+            <li class="contact_item">MTF Marina Salazar, Psicoterapeuta</li>
+                <li class="contact_item"><a href="mailto:marina@psicoterapiagdl.com?subject=Consulta">marina@psicoterapiagdl.com</a></li>
+                <li class="contact_item"><a href="tel:+5213331576713">+52 1 33 3157 6713</a></li>
+            <li class="contact_item">
+                <a href="https://www.facebook.com/psicologamarinasalazar" target="_blank"><img class="social-media" src="images/facebook.png" style="filter: invert(1);"></a>
+                <a href="https://www.pinterest.com.mx/marinapsicoterapeuta/" target="_blank"><img class="social-media" src="images/pinterest.png"></a>
+                <a href="https://www.instagram.com/marina_psicoterapeuta/" target="_blank"><img class="social-media" src="images/instagram.png"></a>
+				<a href="https://www.linkedin.com/in/marina-salazar-alfaro-58631a35/" target="_blank"><img style="width: 32px" class="social-media" src="images/linkedin.svg"></a>
+            </li>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="footer_copy">
+            <img class="icon" alt="English" src="images/english.png">&nbsp;|
+            <img class="icon" alt="French" src="images/french.png">&nbsp;| Lorem ipsum | Lorem ipsum</p>
+    </div>
 </body>
 
 </html>
