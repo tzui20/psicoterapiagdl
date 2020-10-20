@@ -684,4 +684,27 @@ i {
 .hub_text > h1:nth-child(1) {
   width: 75%;
 }
+
+.right {
+    display: none;
+}
+.menu__item {
+    padding: 15px;
+    color: black;
+    font-family: 'Open Sans' !important;
+    border: 1px dotted gray;
+    margin: 2px;
+    width: 100px;
+    height: 25px;
+}
+.menu__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    flex-wrap: wrap;
+    text-align: center;
+}
 }
