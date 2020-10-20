@@ -613,6 +613,10 @@ i {
 
 @media (max-width: 980px) {
 
+.menu__bar {
+	margin-top: 0;
+}
+
 .second_box {
   /* height: 234px; */
   height: auto;
