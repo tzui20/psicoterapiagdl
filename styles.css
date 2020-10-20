@@ -701,6 +701,15 @@ i {
 	top: 13px;
 }
 
+/* styles.css | https://tzui20.github.io/psicoterapiagdl/styles.css */
+
+
+
+.hub_copy > img:nth-child(1) {
+  display: none;
+}
+
+/* Element | https://tzui20.github.io/psicoterapiagdl/index.html */
 
 .hub_text {
  left: 0; 
