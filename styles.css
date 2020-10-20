@@ -664,10 +664,7 @@ i {
 }
 
 .hub_copy {
-  /* top: 12.3%; */
-  /* left: 42%; */
-  top: 45%;
-  left: 0;
+  display: none;
 }
 
 /* Inline #2 | https://tzui20.github.io/psicoterapiagdl/index.html */
@@ -677,12 +674,6 @@ i {
     /* margin-top: 190px; */
     margin-top: 0;
   }
-}
-
-/* Element | https://tzui20.github.io/psicoterapiagdl/index.html */
-
-.hub_text > h1:nth-child(1) {
-  width: 75%;
 }
 
 .right {
@@ -709,4 +700,10 @@ i {
     text-align: center;
 	top: 13px;
 }
+
+
+.hub_text {
+ left: 0; 
+}
+
 }
